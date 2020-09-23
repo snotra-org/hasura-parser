@@ -1,0 +1,4 @@
+tests/
+.git
+.npmrc
+coverage/

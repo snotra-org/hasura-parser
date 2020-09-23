@@ -1,0 +1,31 @@
+{
+    "name": "@result/hasura-parser",
+    "version": "1.0.0",
+    "description": "Helper module for Hasura actions and events.",
+    "main": "lib/index.js",
+    "types": "lib/index.d.ts",
+    "scripts": {
+        "test": "jest",
+        "coverage": "jest --coverage",
+        "build": "tsc",
+        "prepublish": "tsc",
+        "prepare": "npm run build",
+        "start:dev": "tsc -w"
+    },
+    "keywords": [],
+    "author": "Bostjan Cigan <bostjan.cigan@result.si>",
+    "contributors": [
+        {
+            "name": "Marko Divjak <marko.divjak@result.si>"
+        }
+    ],
+    "license": "Apache-2.0",
+    "devDependencies": {
+        "@types/jest": "^26.0.14",
+        "@types/mocha": "^8.0.3",
+        "jest": "^26.4.2",
+        "ts-jest": "^26.4.0",
+        "typescript": "^3.9.5"
+    },
+    "dependencies": {}
+}
