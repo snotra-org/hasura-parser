@@ -37,5 +37,5 @@ const data = eventParser.getData( "id", "type", "user" )
 
 #### Contributions
 
-Made with :fa-heart: at RESULT d.o.o.
+Made with :heart: at RESULT d.o.o.
 If you would like to make any contribution you are welcome to do so.
