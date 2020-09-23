@@ -12,13 +12,24 @@
         "prepare": "npm run build",
         "start:dev": "tsc -w"
     },
-    "keywords": [],
-    "author": "Bostjan Cigan <bostjan.cigan@result.si>",
+    "keywords": [
+        "Hasura",
+        "Hasura Actions",
+        "Hasura Events",
+        "Hasura Parser",
+        "Result",
+        "Hasura GraphQL"
+    ],
+    "author": "Bostjan Cigan <bostjan.cigan@gmail.com>",
     "contributors": [
         {
             "name": "Marko Divjak <marko.divjak@result.si>"
         }
     ],
+    "repository": {
+        "type" : "git",
+        "url" : "https://github.com/resultdoo/hasura-parser.git"
+    },
     "license": "Apache-2.0",
     "devDependencies": {
         "@types/jest": "^26.0.14",
