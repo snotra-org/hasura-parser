@@ -1,14 +1,15 @@
 {
     "name": "@result/hasura-parser",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Helper module for Hasura actions and events.",
     "main": "lib/index.js",
     "types": "lib/index.d.ts",
     "scripts": {
         "test": "jest",
-        "coverage": "jest --coverage",
+        "test:coverage": "jest --coverage",
+        "coverage-badge": "node_modules/lcov-badge/lcov-badge coverage/lcov.info -o badges/coverage.svg",
         "build": "tsc",
-        "prepublish": "tsc",
+        "prepublish": "tsc && yarn test && yarn coverage-badge",
         "prepare": "npm run build",
         "start:dev": "tsc -w"
     },
@@ -23,20 +24,24 @@
     "author": "Bostjan Cigan <bostjan.cigan@gmail.com>",
     "contributors": [
         {
+            "name": "Bostjan Cigan <bostjan.cigan@gmail.com>"
+        },
+        {
             "name": "Marko Divjak <marko.divjak@result.si>"
         }
     ],
     "repository": {
-        "type" : "git",
-        "url" : "https://github.com/resultdoo/hasura-parser.git"
+        "type": "git",
+        "url": "https://github.com/resultdoo/hasura-parser.git"
     },
     "license": "Apache-2.0",
+    "dependencies": {},
     "devDependencies": {
         "@types/jest": "^26.0.14",
         "@types/mocha": "^8.0.3",
         "jest": "^26.4.2",
+        "lcov-badge": "^1.0.4",
         "ts-jest": "^26.4.0",
         "typescript": "^3.9.5"
-    },
-    "dependencies": {}
+    }
 }
