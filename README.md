@@ -1,24 +1,18 @@
-[![RESULT d.o.o.](https://www.result.eu/wp-content/uploads/2020/09/Result_400.png "RESULT d.o.o.")](https://www.result.eu/graphql "RESULT d.o.o.")
-------------
-
 # Hasura Parser
 
-[![npm version](https://badge.fury.io/js/%40result%2Fhasura-parser.svg)](https://badge.fury.io/js/%40result%2Fhasura-parser)
+[![npm version](https://badge.fury.io/js/%40snotra%2Fhasura-parser.svg)](https://badge.fury.io/js/%40snotra%2Fhasura-parser)
 ![Coverage](badges/coverage.svg)
-![Dependencies](https://david-dm.org/resultdoo/hasura-parser.svg)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 An easy utility library for parsing data from Hasura events and actions.
-
-Made with :heart: at RESULT d.o.o.
 
 ## Getting started
 
 First install the package.
 
 ```bash
-yarn add @result/hasura-parser
-npm install @result/hasura-parser
+yarn add @snotra/hasura-parser
+npm install @snotra/hasura-parser
 ```
 
 ## Actions
@@ -26,7 +20,7 @@ npm install @result/hasura-parser
 To use the Action Parser you can either import ActionParser or require the whole package.
 
 ```javascript
-import { ActionParser } from '@result/hasura-parser'
+import { ActionParser } from '@snotra/hasura-parser'
 
 // Data is from your request body
 const actionParser = new ActionParser( data )
@@ -89,7 +83,7 @@ const sessionVariables = actionParser.getActionName()
 To use the Events Parser you can either import EventParser or require the whole package.
 
 ```javascript
-import { EventParser } from '@result/hasura-parser'
+import { EventParser } from '@snotra/hasura-parser'
 
 // Data is from your request body
 const eventParser = new EventParser( data )

@@ -1,6 +1,6 @@
 {
-    "name": "@result/hasura-parser",
-    "version": "1.0.1",
+    "name": "@snotra/hasura-parser",
+    "version": "1.0.2",
     "description": "Helper module for Hasura actions and events.",
     "main": "lib/index.js",
     "types": "lib/index.d.ts",
@@ -32,7 +32,7 @@
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/resultdoo/hasura-parser.git"
+        "url": "https://github.com/snotra-org/hasura-parser.git"
     },
     "license": "Apache-2.0",
     "dependencies": {},
