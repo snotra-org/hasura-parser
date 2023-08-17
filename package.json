@@ -1,7 +1,7 @@
 {
     "name": "@snotra/hasura-parser",
-    "version": "1.0.2",
-    "description": "Helper module for Hasura actions and events.",
+    "version": "1.0.3",
+    "description": "Parse Hasura actions and events easily.",
     "main": "lib/index.js",
     "types": "lib/index.d.ts",
     "scripts": {
@@ -21,7 +21,7 @@
         "Result",
         "Hasura GraphQL"
     ],
-    "author": "Bostjan Cigan <bostjan.cigan@gmail.com>",
+    "author": "Bostjan Cigan <bostjan.cigan@gmail.com> (https://bostjan-cigan.com)",
     "contributors": [
         {
             "name": "Bostjan Cigan <bostjan.cigan@gmail.com>"
@@ -30,6 +30,7 @@
             "name": "Marko Divjak <marko.divjak@result.si>"
         }
     ],
+	"homepage": "https://snotra.app",
     "repository": {
         "type": "git",
         "url": "https://github.com/snotra-org/hasura-parser.git"

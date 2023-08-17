@@ -1,8 +1,8 @@
 # Hasura Parser
 
-[![npm version](https://badge.fury.io/js/%40snotra%2Fhasura-parser.svg)](https://badge.fury.io/js/%40snotra%2Fhasura-parser)
+![npm version](https://img.shields.io/npm/v/%40snotra/hasura-parser?logo=npm&label=npm%20package&color=rgb(68%2C%20204%2C%2017))
 ![Coverage](badges/coverage.svg)
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+![License](https://img.shields.io/github/license/snotra-org/hasura-parser?color=rgba(0%2C126%2C198))
 
 An easy utility library for parsing data from Hasura events and actions.
 
